@@ -1,11 +1,25 @@
 body {
-    padding-top: 20%;
+    padding-top: 15%;
     background-image: url("https://ichef.bbci.co.uk/images/ic/640x360/p08tjg74.jpg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
     
+}
+
+.container {
+    border: 4px;
+    border-color: black;
+    border-style: dotted;
+    background-color: rgba(255, 255, 255, 0.591);
+}
+
+.outer{
+    max-width: 70%;
+    border: 3px solid black;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.591);
 }
 
 h1 {
@@ -15,7 +29,7 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 35%;
     margin-right: 35%;
-    background-color: rgba(255, 255, 255, 0.591);
+    
 }
 
 h2 {
@@ -25,7 +39,7 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 35%;
     margin-right: 35%;
-    background-color: rgba(255, 255, 255, 0.591);
+    
 }
 
 button {
@@ -33,7 +47,8 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
+    font-size: 30px;
     width: 200px;
     margin-bottom: 15px;
     border-radius: 5px;
